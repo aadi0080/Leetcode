@@ -9,7 +9,7 @@ public:
             if(n%2 !=0){     // if  any odd  no. so ham use 1  banne  hi nhi denge seedhe false, ab sari odd  ki khtm 
             return false ;    // aur wo even  6 10 12 14 wo agli itteration me  odd  ban ke  out   ho jayenge
             }
-            n=n/2;         
+            n=n/2;           // tb tk karna  jabtk n =1 jaise  hi hua to loop end  if n%2 wali condition chalegi hi nhi 
         }
         return true ;
     }
